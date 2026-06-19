@@ -327,8 +327,7 @@ Two clear patterns stand out:
 ## How to Run
 
 Each script is self-contained. To run a given version against a Solomon
-instance, update the filepath in the `parse_solomon(...)` call and execute
-all cells:
+instance, update the filepath in the `parse_solomon(...)` call and run the script directly:
 
 ```python
 num_vehicles, capacity, depot, customers = parse_solomon('data/c101.txt')
