@@ -304,6 +304,11 @@ Two clear patterns stand out:
   periodically regardless of distance cost, since the current operators are
   all implicitly distance-driven and have no direct incentive to consolidate
   routes.
+- **Exact solvers were not used as a baseline.** MIP formulations of VRPTW
+  become computationally intractable beyond ~20–25 customers — well below
+  the 100-customer Solomon instances used here. Best-known values from
+  SINTEF (many proven optimal via column generation / branch-and-cut) serve
+  as the optimality reference instead.
 
 ---
 
