@@ -107,7 +107,7 @@ T *= cooling_rate   (every iteration)
 Each destroy operator carries a weight, updated by exponential smoothing
 after every iteration:
 
-$$w \leftarrow (1-\lambda)\,w + \lambda\,\sigma$$
+w ← (1 - λ) · w + λ · σ
 
 | Outcome | Score σ |
 |---|---|
@@ -326,7 +326,7 @@ Two clear patterns stand out:
 
 ## How to Run
 
-Each notebook is self-contained. To run a given version against a Solomon
+Each script is self-contained. To run a given version against a Solomon
 instance, update the filepath in the `parse_solomon(...)` call and execute
 all cells:
 
@@ -334,7 +334,7 @@ all cells:
 num_vehicles, capacity, depot, customers = parse_solomon('data/c101.txt')
 ```
 
-Each notebook prints Nearest Neighbour and final ALNS results to stdout and
+Each script prints Nearest Neighbour and final ALNS results to stdout and
 saves a comparison figure (`Vehicles Used` / `Total Distance` /
 `ALNS Convergence` [/ `Operator Weight Evolution` for v3 and v4]) to the
 working directory.
