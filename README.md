@@ -311,10 +311,10 @@ Two clear patterns stand out:
 
 ```
 .
-├── vrptw_alns_base.ipynb                  # v1: ALNS, no adaptive, no 2-opt
-├── vrptw_alns_2opt.ipynb                  # v2: ALNS + 2-opt, no adaptive
-├── vrptw_alns_adaptive_no2opt.ipynb       # v3: ALNS + adaptive, no 2-opt
-├── vrptw_alns_adaptive.ipynb              # v4: ALNS + adaptive + 2-opt (full)
+├── vrptw_alns_base.py                  # v1: ALNS, no adaptive, no 2-opt
+├── vrptw_alns_2opt.py                  # v2: ALNS + 2-opt, no adaptive
+├── vrptw_alns_adaptive_no2opt.py       # v3: ALNS + adaptive, no 2-opt
+├── vrptw_alns_adaptive.py              # v4: ALNS + adaptive + 2-opt (full)
 ├── data/
 │   ├── C101.txt  C201.txt
 │   ├── R101.txt  R201.txt
